@@ -1,13 +1,15 @@
-# Elliptic Multiscale Problem with MsFEM in Deal.II (Shared Memory Parallel)
+# 2D/3D Elliptic Multiscale Problem with MsFEM in Deal.II (Shared Memory Parallel)
 
 This repository is for teaching purposes only.
+
+It demonstrates how to compue multiscale basis functions in a shared memory parallel fashion in both 2D and 3D.
 
 ## Building the executable
 
 To build the executable and Eclipse project files you must clone the repository:
 
 ```
-git clone https://github.com/konsim83/Deal.ii-9.1.1_SS19_demo_time_dep.git elliptic_msfem
+git clone https://github.com/konsim83/deal.ii_SS19_demo_elliptic_multiscale_fem.git elliptic_msfem
 ```
 We want an out-of-source-build with build files in a folder parallel to the code:
 
@@ -29,7 +31,7 @@ make
 If you want to produce a faster reslease version type
 
 ```
-make debug
+make release
 make
 ```
 
