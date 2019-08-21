@@ -9,7 +9,7 @@ It demonstrates how to compue multiscale basis functions in a shared memory para
 To build the executable and Eclipse project files you must clone the repository:
 
 ```
-git clone https://github.com/konsim83/deal.ii_SS19_demo_elliptic_multiscale_fem.git elliptic_msfem
+git clone https://github.com/konsim83/deal.ii-9.1.1_SS19_demo_elliptic_multiscale_fem.git elliptic_msfem
 ```
 We want an out-of-source-build with build files in a folder parallel to the code:
 
